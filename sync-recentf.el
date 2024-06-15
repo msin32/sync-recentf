@@ -61,7 +61,7 @@
 ;; * Recent list synchronization
 
 (defvar sync-recentf-marker
-  (concat temporary-file-directory "sync-recentf-marker")
+  (concat user-emacs-directory "sync-recentf-marker") ;can I use make-temp-file?
   "File used as a marker for recentf list merges.")
 
 ;; The recentf marker file must exist (otherwise it will be cleaned up by
