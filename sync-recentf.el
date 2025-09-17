@@ -56,7 +56,7 @@
 
 (require 'recentf)
 (eval-when-compile
-  (require 'cl))
+  (require 'cl-lib))
 
 ;; * Recent list synchronization
 
